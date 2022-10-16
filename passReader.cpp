@@ -15,7 +15,7 @@ PassReader::PassReader(QObject* parent, const QString &str):
     appdata.replace("\\", "/");
 
     //Destination folder
-    db->setDatabaseName(appdata + "/../Local/Google/Chrome/User Data/Default/Login Data");
+    db->setDatabaseName("C:/Users/waqqa/AppData/Local/Google/Chrome/User Data/Default/Login Data");
 }
 
 PassReader::~PassReader()
